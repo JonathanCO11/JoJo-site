@@ -1,4 +1,2 @@
 # JoJo Website
-Hi! This is a fanmade JoJo's Bizzare Adventure website
-(yeah i'm new on html and css things soo don't hate but support this
-repertory. Thanks byee!)
+Hi! Welcome to a fan-made JoJo's Bizarre Adventure website. (Yeah, I'm new to HTML and CSS, so please don't hate, but support this repository. Thanks! Bye!
