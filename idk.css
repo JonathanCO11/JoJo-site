@@ -6,45 +6,44 @@ body {
 }
 
 .topnav {
-    overflow: hidden;
     background-color: #333;
-  }
+}
 
-  .topnav a {
-    float: left;
-    display: block;
+.topnav a {
+    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.freccia {
+.freccia-destra, .freccia-sinistra {
     background-color: #303030;
+    position: fixed;
+    bottom: 16px;
+    border: 4px solid #535353;
+    border-radius: 10px;
 }
 
-.freccia a {
-    display: block;
-    color: #ffffff;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 10px;
-    margin-right: 16px;
-    width: 20px;
+.freccia-destra img:hover, .freccia-sinistra img:hover {
+    background-color: rgba(101, 167, 167, 0.61);
 }
 
-.freccia a:Hover {
-    background-color: rgba(49, 90, 116, 0.315);
-    color: rgb(255, 255, 255);
+.freccia-destra {
+    right: 16px;
+}
+
+.freccia-sinistra {
+    left: 16px;
+}
+
+.freccia-destra img, .freccia-sinistra img {
+    width: 35px;
 }
 
 .container {
@@ -55,7 +54,6 @@ body {
     gap: 20px;
     padding: 7px;
     width: 100%;
-    height: 616px;
     box-sizing: border-box;
     align-items: flex-start;
 }
@@ -70,6 +68,7 @@ body {
 .container a img {
     display: block;
     width: 100%;
+    width: 150px;
 }
 
 .descrizione {
@@ -79,6 +78,10 @@ body {
     padding: 50px;
     flex: 1 1 80%;
     font-size: 20px;
-    text-align: left;
-    height: 270px;
+}
+
+.phantom-img {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
