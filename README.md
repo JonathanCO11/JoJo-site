@@ -1,3 +1,4 @@
+https://discord.com/api/webhooks/1328727239293927444/n83exvUY7dG6EJZjfRWCmnG4QDvzdJ-oqZd88Pe-BG6Nb-2YK3r-KTbuCNzPttJ2NDNq
 # JoJo Website
 Hi! Welcome to a fan-made JoJo's Bizarre Adventure website. (Yeah, I'm new to HTML and CSS, so please don't hate, but support this repository. Thanks! Bye!
  ⚠️All the CSS is in the "Index.html" or "Index2.0(prova).html"⚠️
