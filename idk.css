@@ -163,3 +163,17 @@ details[open] summary::marker {
     padding: 20px;
     gap: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container a img {
+        display: flex;
+        justify-content: center;
+
+    }
+    
+}
